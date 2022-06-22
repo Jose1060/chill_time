@@ -23,14 +23,30 @@ const Information = () => {
 
 				<div>
 					<h3 className="text-center text-navy-100 text-2xl py-10">
-						Tipos de presonalizacion
+						Desarrolladores :v
 					</h3>
-					<div className="justify-center flex-1 grid grid-rows-4 gap-5 grid-cols-2 md:grid-cols-3 md:gap-10 lg:mx-20 xl:mx-20 xl:grid-cols-5 lg:gap-5 2xl:mx-80">
-						<Information_card id="1" title="Gatitos" sizeCol={3} sizeRow={1} />
-						<Information_card id="1" title="Gatitos" sizeCol={1} sizeRow={1} />
-						<Information_card id="1" title="Gatitos" sizeCol={1} sizeRow={1} />
-						<Information_card id="1" title="Gatitos" sizeCol={1} sizeRow={1} />
-						<Information_card id="1" title="Gatitos" sizeCol={1} sizeRow={1} />
+					<div className="w-full flex justify-center items-center">
+						<div className="grid grid-rows-1 gap-5 grid-cols-2 md:gap-10 lg:gap-4 lg:grid-cols-4">
+							<Information_card
+								id="1"
+								title="Jose Antonio"
+								sizeCol={3}
+								sizeRow={1}
+							/>
+							<Information_card
+								id="1"
+								title="Gabinho"
+								sizeCol={1}
+								sizeRow={1}
+							/>
+							<Information_card
+								id="1"
+								title="Klebert"
+								sizeCol={1}
+								sizeRow={1}
+							/>
+							<Information_card id="1" title="Nikoll" sizeCol={1} sizeRow={1} />
+						</div>
 					</div>
 				</div>
 			</div>
